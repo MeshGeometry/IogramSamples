@@ -1,0 +1,5 @@
+<material>
+    <technique name="Techniques/GradientSkydome.xml" />
+    <texture unit="diffuse" name="Textures/mtmonadnock.png" />
+    <cull value="none" />
+</material>
