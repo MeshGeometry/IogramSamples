@@ -1,0 +1,4 @@
+<technique vs="BasicGrid" ps="BasicGrid" psdefines="DIFFMAP">
+    <pass name="alpha" depthwrite="false" blend="addalpha" />
+    <pass name="shadow" vs="Shadow" ps="Shadow" />
+</technique>

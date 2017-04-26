@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<element type="ModularWindow">
+	<attribute name="Position" value="0 36" />
+	<attribute name="Size" value="1920 981" />
+	<attribute name="Pivot" value="0 0" />
+	<attribute name="Priority" value="1000000" />
+	<attribute name="Color" value="0.12 0.12 0.12 1" />
+	<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
+	<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
+	<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
+	<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
+	<attribute name="Variables">
+		<variant hash="1369052027" type="Ptr" value="0" />
+		<variant hash="4022291303" type="Int" value="4" />
+	</attribute>
+	<attribute name="Border" value="10 10 10 10" />
+	<attribute name="Split Ratio" value="0.627604" />
+	<attribute name="Content Type" value="889489016" />
+	<element type="ModularWindow" style="ModularWindow">
+		<attribute name="Name" value="__FIRST_CHILD__" />
+		<attribute name="Size" value="1207 981" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Color" value="0.12 0.12 0.12 1" />
+		<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
+		<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
+		<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
+		<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
+		<attribute name="Border" value="10 10 10 10" />
+		<attribute name="Split Ratio" value="0.5" />
+		<attribute name="Split Type" value="MWL_VERTICAL" />
+		<attribute name="Content Type" value="889489016" />
+		<element type="ModularWindow">
+			<attribute name="Name" value="__FIRST_CHILD__" />
+			<attribute name="Size" value="1207 492" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Border" value="10 10 10 10" />
+			<attribute name="Split Ratio" value="0.5" />
+			<attribute name="Split Type" value="MWL_HORIZONTAL" />
+			<attribute name="Content Type" value="-1623719521" />
+		</element>
+		<element type="ModularWindow">
+			<attribute name="Name" value="__SECOND_CHILD__" />
+			<attribute name="Position" value="0 492" />
+			<attribute name="Size" value="1207 489" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Border" value="10 10 10 10" />
+			<attribute name="Split Ratio" value="0.5" />
+			<attribute name="Split Type" value="MWL_HORIZONTAL" />
+			<attribute name="Content Type" value="889489016" />
+			<element type="ModularWindow">
+				<attribute name="Name" value="__FIRST_CHILD__" />
+				<attribute name="Size" value="605 489" />
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Border" value="10 10 10 10" />
+				<attribute name="Split Ratio" value="0.5" />
+				<attribute name="Split Type" value="MWL_VERTICAL" />
+				<attribute name="Content Type" value="-1623719521" />
+			</element>
+			<element type="ModularWindow">
+				<attribute name="Name" value="__SECOND_CHILD__" />
+				<attribute name="Position" value="605 0" />
+				<attribute name="Size" value="602 489" />
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Border" value="10 10 10 10" />
+				<attribute name="Split Ratio" value="0.5" />
+				<attribute name="Split Type" value="MWL_VERTICAL" />
+				<attribute name="Content Type" value="-1623719521" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="__DIVIDER__" />
+				<attribute name="Position" value="603 0" />
+				<attribute name="Size" value="4 489" />
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Priority" value="1000" />
+				<attribute name="Color" value="0.07 0.07 0.07 1" />
+				<attribute name="Top Left Color" value="0.07 0.07 0.07 1" />
+				<attribute name="Top Right Color" value="0.07 0.07 0.07 1" />
+				<attribute name="Bottom Left Color" value="0.07 0.07 0.07 1" />
+				<attribute name="Bottom Right Color" value="0.07 0.07 0.07 1" />
+			</element>
+		</element>
+		<element type="Button" internal="true" style="none">
+			<attribute name="Name" value="__DIVIDER__" />
+			<attribute name="Position" value="0 490" />
+			<attribute name="Size" value="1207 4" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Priority" value="1000" />
+			<attribute name="Color" value="0.07 0.07 0.07 1" />
+			<attribute name="Top Left Color" value="0.07 0.07 0.07 1" />
+			<attribute name="Top Right Color" value="0.07 0.07 0.07 1" />
+			<attribute name="Bottom Left Color" value="0.07 0.07 0.07 1" />
+			<attribute name="Bottom Right Color" value="0.07 0.07 0.07 1" />
+		</element>
+	</element>
+	<element type="ModularWindow" style="ModularWindow">
+		<attribute name="Name" value="__SECOND_CHILD__" />
+		<attribute name="Position" value="1207 0" />
+		<attribute name="Size" value="713 981" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Color" value="0.12 0.12 0.12 1" />
+		<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
+		<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
+		<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
+		<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
+		<attribute name="Border" value="10 10 10 10" />
+		<attribute name="Split Ratio" value="0.15" />
+		<attribute name="Split Type" value="MWL_VERTICAL" />
+		<attribute name="Content Type" value="889489016" />
+		<element type="ModularWindow" style="ModularWindow">
+			<attribute name="Name" value="__FIRST_CHILD__" />
+			<attribute name="Size" value="713 149" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Border" value="10 10 10 10" />
+			<attribute name="Split Ratio" value="0.5" />
+			<attribute name="Split Type" value="MWL_HORIZONTAL" />
+			<attribute name="Content Type" value="889489016" />
+			<element type="ModularWindow" style="ModularWindow">
+				<attribute name="Name" value="__FIRST_CHILD__" />
+				<attribute name="Size" value="358 149" />
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Border" value="10 10 10 10" />
+				<attribute name="Split Ratio" value="0.5" />
+				<attribute name="Split Type" value="MWL_VERTICAL" />
+				<attribute name="Content Type" value="1514433550" />
+			</element>
+			<element type="ModularWindow" style="ModularWindow">
+				<attribute name="Name" value="__SECOND_CHILD__" />
+				<attribute name="Position" value="358 0" />
+				<attribute name="Size" value="355 149" />
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
+				<attribute name="Border" value="10 10 10 10" />
+				<attribute name="Split Ratio" value="0.5" />
+				<attribute name="Split Type" value="MWL_VERTICAL" />
+				<attribute name="Content Type" value="1514433550" />
+			</element>
+			<element type="Button">
+				<attribute name="Name" value="__DIVIDER__" />
+				<attribute name="Position" value="356 0" />
+				<attribute name="Size" value="4 149" />
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Priority" value="1000" />
+				<attribute name="Color" value="0.07 0.07 0.07 1" />
+				<attribute name="Top Left Color" value="0.07 0.07 0.07 1" />
+				<attribute name="Top Right Color" value="0.07 0.07 0.07 1" />
+				<attribute name="Bottom Left Color" value="0.07 0.07 0.07 1" />
+				<attribute name="Bottom Right Color" value="0.07 0.07 0.07 1" />
+			</element>
+		</element>
+		<element type="ModularWindow" style="ModularWindow">
+			<attribute name="Name" value="__SECOND_CHILD__" />
+			<attribute name="Position" value="0 149" />
+			<attribute name="Size" value="713 832" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
+			<attribute name="Border" value="10 10 10 10" />
+			<attribute name="Split Ratio" value="0.5" />
+			<attribute name="Split Type" value="MWL_HORIZONTAL" />
+			<attribute name="Content Type" value="-411129535" />
+		</element>
+		<element type="Button">
+			<attribute name="Name" value="__DIVIDER__" />
+			<attribute name="Position" value="0 147" />
+			<attribute name="Size" value="713 4" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Priority" value="1000" />
+			<attribute name="Color" value="0.07 0.07 0.07 1" />
+			<attribute name="Top Left Color" value="0.07 0.07 0.07 1" />
+			<attribute name="Top Right Color" value="0.07 0.07 0.07 1" />
+			<attribute name="Bottom Left Color" value="0.07 0.07 0.07 1" />
+			<attribute name="Bottom Right Color" value="0.07 0.07 0.07 1" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="__DIVIDER__" />
+		<attribute name="Position" value="1205 0" />
+		<attribute name="Size" value="4 981" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Priority" value="1000" />
+		<attribute name="Color" value="0.07 0.07 0.07 1" />
+		<attribute name="Top Left Color" value="0.07 0.07 0.07 1" />
+		<attribute name="Top Right Color" value="0.07 0.07 0.07 1" />
+		<attribute name="Bottom Left Color" value="0.07 0.07 0.07 1" />
+		<attribute name="Bottom Right Color" value="0.07 0.07 0.07 1" />
+	</element>
+</element>
