@@ -10,11 +10,11 @@
 	<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
 	<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
 	<attribute name="Border" value="10 10 10 10" />
-	<attribute name="Split Ratio" value="0.5" />
+	<attribute name="Split Ratio" value="0.466016" />
 	<attribute name="Content Type" value="889489016" />
 	<element type="ModularWindow">
 		<attribute name="Name" value="__FIRST_CHILD__" />
-		<attribute name="Size" value="1282 1341" />
+		<attribute name="Size" value="1195 1341" />
 		<attribute name="Pivot" value="0 0" />
 		<attribute name="Color" value="0.12 0.12 0.12 1" />
 		<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -27,7 +27,7 @@
 		<attribute name="Content Type" value="889489016" />
 		<element type="ModularWindow">
 			<attribute name="Name" value="__FIRST_CHILD__" />
-			<attribute name="Size" value="1282 1141" />
+			<attribute name="Size" value="1195 1141" />
 			<attribute name="Pivot" value="0 0" />
 			<attribute name="Color" value="0.12 0.12 0.12 1" />
 			<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -42,7 +42,7 @@
 		<element type="ModularWindow">
 			<attribute name="Name" value="__SECOND_CHILD__" />
 			<attribute name="Position" value="0 1141" />
-			<attribute name="Size" value="1282 200" />
+			<attribute name="Size" value="1195 200" />
 			<attribute name="Pivot" value="0 0" />
 			<attribute name="Color" value="0.12 0.12 0.12 1" />
 			<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -55,7 +55,7 @@
 			<attribute name="Content Type" value="889489016" />
 			<element type="ModularWindow">
 				<attribute name="Name" value="__FIRST_CHILD__" />
-				<attribute name="Size" value="643 200" />
+				<attribute name="Size" value="599 200" />
 				<attribute name="Pivot" value="0 0" />
 				<attribute name="Color" value="0.12 0.12 0.12 1" />
 				<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -69,8 +69,8 @@
 			</element>
 			<element type="ModularWindow">
 				<attribute name="Name" value="__SECOND_CHILD__" />
-				<attribute name="Position" value="643 0" />
-				<attribute name="Size" value="639 200" />
+				<attribute name="Position" value="599 0" />
+				<attribute name="Size" value="596 200" />
 				<attribute name="Pivot" value="0 0" />
 				<attribute name="Color" value="0.12 0.12 0.12 1" />
 				<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -84,7 +84,7 @@
 			</element>
 			<element type="Button">
 				<attribute name="Name" value="__DIVIDER__" />
-				<attribute name="Position" value="641 0" />
+				<attribute name="Position" value="597 0" />
 				<attribute name="Size" value="4 200" />
 				<attribute name="Pivot" value="0 0" />
 				<attribute name="Priority" value="1000" />
@@ -98,7 +98,7 @@
 		<element type="Button" internal="true" style="none">
 			<attribute name="Name" value="__DIVIDER__" />
 			<attribute name="Position" value="0 1139" />
-			<attribute name="Size" value="1282 4" />
+			<attribute name="Size" value="1195 4" />
 			<attribute name="Pivot" value="0 0" />
 			<attribute name="Priority" value="1000" />
 			<attribute name="Color" value="0.07 0.07 0.07 1" />
@@ -110,8 +110,8 @@
 	</element>
 	<element type="ModularWindow">
 		<attribute name="Name" value="__SECOND_CHILD__" />
-		<attribute name="Position" value="1282 0" />
-		<attribute name="Size" value="1278 1341" />
+		<attribute name="Position" value="1195 0" />
+		<attribute name="Size" value="1365 1341" />
 		<attribute name="Pivot" value="0 0" />
 		<attribute name="Color" value="0.12 0.12 0.12 1" />
 		<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -124,7 +124,7 @@
 		<attribute name="Content Type" value="889489016" />
 		<element type="ModularWindow">
 			<attribute name="Name" value="__FIRST_CHILD__" />
-			<attribute name="Size" value="1278 203" />
+			<attribute name="Size" value="1365 203" />
 			<attribute name="Pivot" value="0 0" />
 			<attribute name="Color" value="0.12 0.12 0.12 1" />
 			<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -137,7 +137,7 @@
 			<attribute name="Content Type" value="889489016" />
 			<element type="ModularWindow">
 				<attribute name="Name" value="__FIRST_CHILD__" />
-				<attribute name="Size" value="641 203" />
+				<attribute name="Size" value="684 203" />
 				<attribute name="Pivot" value="0 0" />
 				<attribute name="Color" value="0.12 0.12 0.12 1" />
 				<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -151,8 +151,8 @@
 			</element>
 			<element type="ModularWindow">
 				<attribute name="Name" value="__SECOND_CHILD__" />
-				<attribute name="Position" value="641 0" />
-				<attribute name="Size" value="637 203" />
+				<attribute name="Position" value="684 0" />
+				<attribute name="Size" value="681 203" />
 				<attribute name="Pivot" value="0 0" />
 				<attribute name="Color" value="0.12 0.12 0.12 1" />
 				<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -166,7 +166,7 @@
 			</element>
 			<element type="Button">
 				<attribute name="Name" value="__DIVIDER__" />
-				<attribute name="Position" value="639 0" />
+				<attribute name="Position" value="682 0" />
 				<attribute name="Size" value="4 203" />
 				<attribute name="Pivot" value="0 0" />
 				<attribute name="Priority" value="1000" />
@@ -180,7 +180,7 @@
 		<element type="ModularWindow">
 			<attribute name="Name" value="__SECOND_CHILD__" />
 			<attribute name="Position" value="0 203" />
-			<attribute name="Size" value="1278 1138" />
+			<attribute name="Size" value="1365 1138" />
 			<attribute name="Pivot" value="0 0" />
 			<attribute name="Color" value="0.12 0.12 0.12 1" />
 			<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -195,7 +195,7 @@
 		<element type="Button" internal="true" style="none">
 			<attribute name="Name" value="__DIVIDER__" />
 			<attribute name="Position" value="0 201" />
-			<attribute name="Size" value="1278 4" />
+			<attribute name="Size" value="1365 4" />
 			<attribute name="Pivot" value="0 0" />
 			<attribute name="Priority" value="1000" />
 			<attribute name="Color" value="0.07 0.07 0.07 1" />
@@ -207,7 +207,7 @@
 	</element>
 	<element type="Button">
 		<attribute name="Name" value="__DIVIDER__" />
-		<attribute name="Position" value="1280 0" />
+		<attribute name="Position" value="1193 0" />
 		<attribute name="Size" value="4 1341" />
 		<attribute name="Pivot" value="0 0" />
 		<attribute name="Priority" value="1000" />
