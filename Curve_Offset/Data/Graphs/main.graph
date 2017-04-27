@@ -700,6 +700,10 @@
 							{
 								"linked_component": "53E3D844",
 								"linked_slot_index": 0
+							},
+							{
+								"linked_component": "D707137B",
+								"linked_slot_index": 0
 							}
 						]
 					}
@@ -810,6 +814,228 @@
 							{
 								"linked_component": "53E3D844",
 								"linked_slot_index": 2
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "D707137B",
+				"Name": "",
+				"type": "Curve_PolylineLoft",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "MyGraphView",
+				"coordinates": "1754 479",
+				"view_size": "140 80",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "D707137B",
+						"slot_index": 0,
+						"data_access": 1,
+						"slot_var_label": "L",
+						"slot_label": "PolylineList",
+						"protected": true,
+						"linked_component": "DD3648BA",
+						"linked_slot_index": 0
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "D707137B",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "7BB6E480",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "75A7EFC2",
+				"Name": "",
+				"type": "Graphics_MeshRenderer",
+				"num_inputs": 4,
+				"num_outputs": 2,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "MyGraphView",
+				"coordinates": "2326 549",
+				"view_size": "224 126",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "75A7EFC2",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "M",
+						"slot_label": "Mesh",
+						"protected": true,
+						"linked_component": "7BB6E480",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "75A7EFC2",
+						"slot_index": 1,
+						"data_access": 0,
+						"slot_var_label": "MT",
+						"slot_label": "Material",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "None",
+											"var_value": ""
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "75A7EFC2",
+						"slot_index": 2,
+						"data_access": 0,
+						"slot_var_label": "S",
+						"slot_label": "SplitVertices",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Bool",
+											"var_value": "true"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "75A7EFC2",
+						"slot_index": 3,
+						"data_access": 0,
+						"slot_var_label": "C",
+						"slot_label": "Color",
+						"protected": true,
+						"linked_component": "9850B73C",
+						"linked_slot_index": 0
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "75A7EFC2",
+						"slot_index": 0,
+						"linked_inputs": []
+					},
+					{
+						"home_component": "75A7EFC2",
+						"slot_index": 1,
+						"linked_inputs": []
+					}
+				]
+			},
+			{
+				"ID": "7BB6E480",
+				"Name": "",
+				"type": "Mesh_FlipNormals",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "MyGraphView",
+				"coordinates": "1996 532",
+				"view_size": "120 80",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "7BB6E480",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "M",
+						"slot_label": "MeshIn",
+						"protected": true,
+						"linked_component": "D707137B",
+						"linked_slot_index": 0
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "7BB6E480",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "75A7EFC2",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "9850B73C",
+				"Name": "",
+				"type": "Input_ColorSlider",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "MyGraphView",
+				"coordinates": "1987 677",
+				"view_size": "292 176",
+				"metadata": {
+					"saved_color": {
+						"type": "Color",
+						"value": "47.8125 255 255 0.21"
+					}
+				},
+				"input_slots": [
+					{
+						"home_component": "9850B73C",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "C",
+						"slot_label": "Color",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Color",
+											"var_value": "0.1875 1 1 0.21"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "9850B73C",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "75A7EFC2",
+								"linked_slot_index": 3
 							}
 						]
 					}
