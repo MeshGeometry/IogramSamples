@@ -1,0 +1,2142 @@
+{
+	"graph": {
+		"components": [
+			{
+				"ID": "E4756B4C",
+				"Name": "",
+				"type": "Graphics_Skybox",
+				"num_inputs": 5,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Scene",
+				"coordinates": "613 190",
+				"view_size": "138 152",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "E4756B4C",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "A",
+						"slot_label": "ColorA",
+						"protected": true,
+						"linked_component": "D5242B33",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "E4756B4C",
+						"slot_index": 1,
+						"data_access": 0,
+						"slot_var_label": "B",
+						"slot_label": "ColorB",
+						"protected": true,
+						"linked_component": "743900F2",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "E4756B4C",
+						"slot_index": 2,
+						"data_access": 0,
+						"slot_var_label": "BR",
+						"slot_label": "BlurRadius",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Float",
+											"var_value": "0.2"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "E4756B4C",
+						"slot_index": 3,
+						"data_access": 0,
+						"slot_var_label": "BL",
+						"slot_label": "Blend",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Float",
+											"var_value": "0.2"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "E4756B4C",
+						"slot_index": 4,
+						"data_access": 0,
+						"slot_var_label": "T",
+						"slot_label": "Texture",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "String",
+											"var_value": "Textures/studio008.hdr"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "E4756B4C",
+						"slot_index": 0,
+						"linked_inputs": []
+					}
+				]
+			},
+			{
+				"ID": "16DD7ABC",
+				"Name": "",
+				"type": "Graphics_Grid",
+				"num_inputs": 4,
+				"num_outputs": 2,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Scene",
+				"coordinates": "618 404",
+				"view_size": "132 126",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "16DD7ABC",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "T",
+						"slot_label": "Transform",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Matrix3x4",
+											"var_value": "1 0 0 0 0 1 0 0 0 0 1 0"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "16DD7ABC",
+						"slot_index": 1,
+						"data_access": 0,
+						"slot_var_label": "S",
+						"slot_label": "Scale",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Vector3",
+											"var_value": "500 1 500"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "16DD7ABC",
+						"slot_index": 2,
+						"data_access": 0,
+						"slot_var_label": "D",
+						"slot_label": "Density",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Float",
+											"var_value": "1"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "16DD7ABC",
+						"slot_index": 3,
+						"data_access": 0,
+						"slot_var_label": "C",
+						"slot_label": "Color",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Color",
+											"var_value": "0.5 0.5 0.5 0.5"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "16DD7ABC",
+						"slot_index": 0,
+						"linked_inputs": []
+					},
+					{
+						"home_component": "16DD7ABC",
+						"slot_index": 1,
+						"linked_inputs": []
+					}
+				]
+			},
+			{
+				"ID": "B1044ABB",
+				"Name": "",
+				"type": "Mesh_Plane",
+				"num_inputs": 2,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Vault",
+				"coordinates": "303 238",
+				"view_size": "186 82",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "B1044ABB",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "Height",
+						"slot_label": "Height",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Float",
+											"var_value": "0"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "B1044ABB",
+						"slot_index": 1,
+						"data_access": 0,
+						"slot_var_label": "T",
+						"slot_label": "Transformation",
+						"protected": true,
+						"linked_component": "35C03481",
+						"linked_slot_index": 0
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "B1044ABB",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "67C145F9",
+								"linked_slot_index": 0
+							},
+							{
+								"linked_component": "A35A187D",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "35C03481",
+				"Name": "",
+				"type": "Maths_ConstructTransform",
+				"num_inputs": 3,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Vault",
+				"coordinates": "52 205",
+				"view_size": "176 104",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "35C03481",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "P",
+						"slot_label": "Position",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Vector3",
+											"var_value": "0 0 0"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "35C03481",
+						"slot_index": 1,
+						"data_access": 0,
+						"slot_var_label": "S",
+						"slot_label": "Scale",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Vector3",
+											"var_value": "0.1 0.1 0.1"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "35C03481",
+						"slot_index": 2,
+						"data_access": 0,
+						"slot_var_label": "R",
+						"slot_label": "Rotation",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Quaternion",
+											"var_value": "1 0 0 0"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "35C03481",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "B1044ABB",
+								"linked_slot_index": 1
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "67C145F9",
+				"Name": "",
+				"type": "Mesh_SubdivideMesh",
+				"num_inputs": 2,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Vault",
+				"coordinates": "587 66",
+				"view_size": "141 82",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "67C145F9",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "M",
+						"slot_label": "Mesh",
+						"protected": true,
+						"linked_component": "B1044ABB",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "67C145F9",
+						"slot_index": 1,
+						"data_access": 0,
+						"slot_var_label": "S",
+						"slot_label": "Steps",
+						"protected": true,
+						"linked_component": "B3D387BA",
+						"linked_slot_index": 0
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "67C145F9",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "C6F48F8D",
+								"linked_slot_index": 7
+							},
+							{
+								"linked_component": "8B5A5F7D",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "C6F48F8D",
+				"Name": "",
+				"type": "ShapeOp_Solve",
+				"num_inputs": 10,
+				"num_outputs": 2,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Vault",
+				"coordinates": "1416 311",
+				"view_size": "172 258",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "C6F48F8D",
+						"slot_index": 0,
+						"data_access": 1,
+						"slot_var_label": "CL",
+						"slot_label": "Constraint List",
+						"protected": true,
+						"linked_component": "8CD8AEF3",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "C6F48F8D",
+						"slot_index": 1,
+						"data_access": 0,
+						"slot_var_label": "WD",
+						"slot_label": "WeldDist",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Float",
+											"var_value": "0.0001"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "C6F48F8D",
+						"slot_index": 2,
+						"data_access": 0,
+						"slot_var_label": "G",
+						"slot_label": "Gravity",
+						"protected": true,
+						"linked_component": "4AA92F8B",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "C6F48F8D",
+						"slot_index": 3,
+						"data_access": 0,
+						"slot_var_label": "M",
+						"slot_label": "Mass",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Float",
+											"var_value": "1"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "C6F48F8D",
+						"slot_index": 4,
+						"data_access": 0,
+						"slot_var_label": "D",
+						"slot_label": "Damping",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Float",
+											"var_value": "1"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "C6F48F8D",
+						"slot_index": 5,
+						"data_access": 0,
+						"slot_var_label": "T",
+						"slot_label": "Timestep",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Float",
+											"var_value": "10"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "C6F48F8D",
+						"slot_index": 6,
+						"data_access": 0,
+						"slot_var_label": "I",
+						"slot_label": "Iterations",
+						"protected": true,
+						"linked_component": "9DBB9600",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "C6F48F8D",
+						"slot_index": 7,
+						"data_access": 1,
+						"slot_var_label": "ML",
+						"slot_label": "MeshList",
+						"protected": true,
+						"linked_component": "67C145F9",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "C6F48F8D",
+						"slot_index": 8,
+						"data_access": 0,
+						"slot_var_label": "ResetPts",
+						"slot_label": "ResetPts",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Bool",
+											"var_value": "false"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "C6F48F8D",
+						"slot_index": 9,
+						"data_access": 0,
+						"slot_var_label": "Restart",
+						"slot_label": "Restart",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Bool",
+											"var_value": "true"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "C6F48F8D",
+						"slot_index": 0,
+						"linked_inputs": []
+					},
+					{
+						"home_component": "C6F48F8D",
+						"slot_index": 1,
+						"linked_inputs": [
+							{
+								"linked_component": "18937AFA",
+								"linked_slot_index": 0
+							},
+							{
+								"linked_component": "0883C383",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "A35A187D",
+				"Name": "",
+				"type": "Mesh_SubdivideMesh",
+				"num_inputs": 2,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Vault",
+				"coordinates": "605 321",
+				"view_size": "141 82",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "A35A187D",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "M",
+						"slot_label": "Mesh",
+						"protected": true,
+						"linked_component": "B1044ABB",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "A35A187D",
+						"slot_index": 1,
+						"data_access": 0,
+						"slot_var_label": "S",
+						"slot_label": "Steps",
+						"protected": true,
+						"linked_component": "B17ADBEF",
+						"linked_slot_index": 0
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "A35A187D",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "226CD93A",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "226CD93A",
+				"Name": "",
+				"type": "Mesh_DeconstructTriangleMesh",
+				"num_inputs": 1,
+				"num_outputs": 5,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Vault",
+				"coordinates": "790 342",
+				"view_size": "215 148",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "226CD93A",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "M",
+						"slot_label": "Mesh",
+						"protected": true,
+						"linked_component": "A35A187D",
+						"linked_slot_index": 0
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "226CD93A",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "FD1621C4",
+								"linked_slot_index": 0
+							}
+						]
+					},
+					{
+						"home_component": "226CD93A",
+						"slot_index": 1,
+						"linked_inputs": []
+					},
+					{
+						"home_component": "226CD93A",
+						"slot_index": 2,
+						"linked_inputs": []
+					},
+					{
+						"home_component": "226CD93A",
+						"slot_index": 3,
+						"linked_inputs": []
+					},
+					{
+						"home_component": "226CD93A",
+						"slot_index": 4,
+						"linked_inputs": []
+					}
+				]
+			},
+			{
+				"ID": "B3D387BA",
+				"Name": "",
+				"type": "Input_Panel",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Vault",
+				"coordinates": "341 44",
+				"view_size": "132 156",
+				"metadata": {
+					"TargetType": {
+						"type": "String",
+						"value": "Int"
+					}
+				},
+				"input_slots": [
+					{
+						"home_component": "B3D387BA",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "",
+						"slot_label": "",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Int",
+											"var_value": "4"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "B3D387BA",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "67C145F9",
+								"linked_slot_index": 1
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "B17ADBEF",
+				"Name": "",
+				"type": "Input_Panel",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Vault",
+				"coordinates": "344 359",
+				"view_size": "132 156",
+				"metadata": {
+					"TargetType": {
+						"type": "String",
+						"value": "Int"
+					}
+				},
+				"input_slots": [
+					{
+						"home_component": "B17ADBEF",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "",
+						"slot_label": "",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Int",
+											"var_value": "1"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "B17ADBEF",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "A35A187D",
+								"linked_slot_index": 1
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "8B5A5F7D",
+				"Name": "",
+				"type": "ShapeOp_MeshTriangleStrain",
+				"num_inputs": 4,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Vault",
+				"coordinates": "810 179",
+				"view_size": "170 126",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "8B5A5F7D",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "G",
+						"slot_label": "Geometry",
+						"protected": true,
+						"linked_component": "67C145F9",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "8B5A5F7D",
+						"slot_index": 1,
+						"data_access": 0,
+						"slot_var_label": "W",
+						"slot_label": "Weight",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Float",
+											"var_value": "100"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "8B5A5F7D",
+						"slot_index": 2,
+						"data_access": 0,
+						"slot_var_label": "MX",
+						"slot_label": "Max",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Float",
+											"var_value": "100"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "8B5A5F7D",
+						"slot_index": 3,
+						"data_access": 0,
+						"slot_var_label": "MN",
+						"slot_label": "Min",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Float",
+											"var_value": "0"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "8B5A5F7D",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "8CD8AEF3",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "FD1621C4",
+				"Name": "",
+				"type": "ShapeOp_Closeness",
+				"num_inputs": 2,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Vault",
+				"coordinates": "1013 495",
+				"view_size": "124 82",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "FD1621C4",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "P",
+						"slot_label": "Position",
+						"protected": true,
+						"linked_component": "226CD93A",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "FD1621C4",
+						"slot_index": 1,
+						"data_access": 0,
+						"slot_var_label": "W",
+						"slot_label": "Weight",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Float",
+											"var_value": "1000"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "FD1621C4",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "8CD8AEF3",
+								"linked_slot_index": 1
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "8CD8AEF3",
+				"Name": "",
+				"type": "Sets_ListConstruct",
+				"num_inputs": 2,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Vault",
+				"coordinates": "1136 350",
+				"view_size": "129 82",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "8CD8AEF3",
+						"slot_index": 0,
+						"data_access": 1,
+						"slot_var_label": "I1",
+						"slot_label": "Item1",
+						"protected": true,
+						"linked_component": "8B5A5F7D",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "8CD8AEF3",
+						"slot_index": 1,
+						"data_access": 1,
+						"slot_var_label": "I2",
+						"slot_label": "Item2",
+						"protected": true,
+						"linked_component": "FD1621C4",
+						"linked_slot_index": 0
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "8CD8AEF3",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "C6F48F8D",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "4AA92F8B",
+				"Name": "",
+				"type": "Input_Panel",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Vault",
+				"coordinates": "1086 110",
+				"view_size": "219 156",
+				"metadata": {
+					"TargetType": {
+						"type": "String",
+						"value": "Vector3"
+					}
+				},
+				"input_slots": [
+					{
+						"home_component": "4AA92F8B",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "",
+						"slot_label": "",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Vector3",
+											"var_value": "0 9.81 0"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "4AA92F8B",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "C6F48F8D",
+								"linked_slot_index": 2
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "9DBB9600",
+				"Name": "",
+				"type": "Input_Slider",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Vault",
+				"coordinates": "997 643",
+				"view_size": "162 116",
+				"metadata": {
+					"max": {
+						"type": "Float",
+						"value": "20"
+					},
+					"value": {
+						"type": "Float",
+						"value": "20"
+					}
+				},
+				"input_slots": [
+					{
+						"home_component": "9DBB9600",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "",
+						"slot_label": "I",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Float",
+											"var_value": "20"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "9DBB9600",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "C6F48F8D",
+								"linked_slot_index": 6
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "18937AFA",
+				"Name": "",
+				"type": "Sets_ExportViewData",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Vault",
+				"coordinates": "1879 435",
+				"view_size": "168 84",
+				"metadata": {
+					"ExportVariableName": {
+						"type": "String",
+						"value": "VaultMesh"
+					}
+				},
+				"input_slots": [
+					{
+						"home_component": "18937AFA",
+						"slot_index": 0,
+						"data_access": 2,
+						"slot_var_label": "Out",
+						"slot_label": "Data",
+						"protected": true,
+						"linked_component": "C6F48F8D",
+						"linked_slot_index": 1
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "18937AFA",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "0AFB957C",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "0AFB957C",
+				"Name": "",
+				"type": "Sets_ImportViewData",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Color",
+				"coordinates": "419 232",
+				"view_size": "170 84",
+				"metadata": {
+					"ImportVariableName": {
+						"type": "String",
+						"value": "VaultMesh"
+					}
+				},
+				"input_slots": [
+					{
+						"home_component": "0AFB957C",
+						"slot_index": 0,
+						"data_access": 2,
+						"slot_var_label": "In",
+						"slot_label": "DataIn",
+						"protected": true,
+						"linked_component": "18937AFA",
+						"linked_slot_index": 0
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "0AFB957C",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "B24B5F08",
+								"linked_slot_index": 0
+							},
+							{
+								"linked_component": "7CEFD57B",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "B24B5F08",
+				"Name": "",
+				"type": "Graphics_MeshRenderer",
+				"num_inputs": 4,
+				"num_outputs": 2,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Color",
+				"coordinates": "1428 127",
+				"view_size": "224 126",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "B24B5F08",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "M",
+						"slot_label": "Mesh",
+						"protected": true,
+						"linked_component": "0AFB957C",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "B24B5F08",
+						"slot_index": 1,
+						"data_access": 0,
+						"slot_var_label": "MT",
+						"slot_label": "Material",
+						"protected": true,
+						"linked_component": "318A62B5",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "B24B5F08",
+						"slot_index": 2,
+						"data_access": 0,
+						"slot_var_label": "S",
+						"slot_label": "SplitVertices",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Bool",
+											"var_value": "false"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "B24B5F08",
+						"slot_index": 3,
+						"data_access": 0,
+						"slot_var_label": "C",
+						"slot_label": "Color",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Color",
+											"var_value": "1 1 1 1"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "B24B5F08",
+						"slot_index": 0,
+						"linked_inputs": []
+					},
+					{
+						"home_component": "B24B5F08",
+						"slot_index": 1,
+						"linked_inputs": [
+							{
+								"linked_component": "DFB386B1",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "DFB386B1",
+				"Name": "",
+				"type": "Graphics_VertexColors",
+				"num_inputs": 4,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Color",
+				"coordinates": "2065 202",
+				"view_size": "152 126",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "DFB386B1",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "D",
+						"slot_label": "Drawable",
+						"protected": true,
+						"linked_component": "B24B5F08",
+						"linked_slot_index": 1
+					},
+					{
+						"home_component": "DFB386B1",
+						"slot_index": 1,
+						"data_access": 1,
+						"slot_var_label": "C",
+						"slot_label": "Colors",
+						"protected": true,
+						"linked_component": "8F97AF02",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "DFB386B1",
+						"slot_index": 2,
+						"data_access": 0,
+						"slot_var_label": "FV",
+						"slot_label": "Force",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Bool",
+											"var_value": "false"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "DFB386B1",
+						"slot_index": 3,
+						"data_access": 1,
+						"slot_var_label": "C",
+						"slot_label": "Copy counts",
+						"protected": true,
+						"linked_component": "A3940183",
+						"linked_slot_index": 0
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "DFB386B1",
+						"slot_index": 0,
+						"linked_inputs": []
+					}
+				]
+			},
+			{
+				"ID": "7CEFD57B",
+				"Name": "",
+				"type": "Mesh_DeconstructTriangleMesh",
+				"num_inputs": 1,
+				"num_outputs": 5,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Color",
+				"coordinates": "713 440",
+				"view_size": "215 148",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "7CEFD57B",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "M",
+						"slot_label": "Mesh",
+						"protected": true,
+						"linked_component": "0AFB957C",
+						"linked_slot_index": 0
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "7CEFD57B",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "E00F0C7A",
+								"linked_slot_index": 0
+							}
+						]
+					},
+					{
+						"home_component": "7CEFD57B",
+						"slot_index": 1,
+						"linked_inputs": []
+					},
+					{
+						"home_component": "7CEFD57B",
+						"slot_index": 2,
+						"linked_inputs": []
+					},
+					{
+						"home_component": "7CEFD57B",
+						"slot_index": 3,
+						"linked_inputs": []
+					},
+					{
+						"home_component": "7CEFD57B",
+						"slot_index": 4,
+						"linked_inputs": []
+					}
+				]
+			},
+			{
+				"ID": "E00F0C7A",
+				"Name": "",
+				"type": "Vector_DeconstructVector",
+				"num_inputs": 1,
+				"num_outputs": 3,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Color",
+				"coordinates": "1153 463",
+				"view_size": "167 104",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "E00F0C7A",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "V",
+						"slot_label": "Vector",
+						"protected": true,
+						"linked_component": "7CEFD57B",
+						"linked_slot_index": 0
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "E00F0C7A",
+						"slot_index": 0,
+						"linked_inputs": []
+					},
+					{
+						"home_component": "E00F0C7A",
+						"slot_index": 1,
+						"linked_inputs": [
+							{
+								"linked_component": "6C925DEA",
+								"linked_slot_index": 0
+							}
+						]
+					},
+					{
+						"home_component": "E00F0C7A",
+						"slot_index": 2,
+						"linked_inputs": []
+					}
+				]
+			},
+			{
+				"ID": "BF5CE4BD",
+				"Name": "",
+				"type": "Input_Slider",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Color",
+				"coordinates": "1164 613",
+				"view_size": "162 116",
+				"metadata": {
+					"min": {
+						"type": "Float",
+						"value": "0.1"
+					},
+					"max": {
+						"type": "Float",
+						"value": "10"
+					},
+					"value": {
+						"type": "Float",
+						"value": "6.94812"
+					}
+				},
+				"input_slots": [
+					{
+						"home_component": "BF5CE4BD",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "",
+						"slot_label": "I",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Float",
+											"var_value": "6.94812"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "BF5CE4BD",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "6C925DEA",
+								"linked_slot_index": 1
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "8F97AF02",
+				"Name": "",
+				"type": "Maths_Lerp",
+				"num_inputs": 3,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Color",
+				"coordinates": "1832 583",
+				"view_size": "158 104",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "8F97AF02",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "A",
+						"slot_label": "From",
+						"protected": true,
+						"linked_component": "BB98CCBB",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "8F97AF02",
+						"slot_index": 1,
+						"data_access": 0,
+						"slot_var_label": "B",
+						"slot_label": "To",
+						"protected": true,
+						"linked_component": "C0A6C87C",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "8F97AF02",
+						"slot_index": 2,
+						"data_access": 0,
+						"slot_var_label": "t",
+						"slot_label": "T",
+						"protected": true,
+						"linked_component": "6C925DEA",
+						"linked_slot_index": 0
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "8F97AF02",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "DFB386B1",
+								"linked_slot_index": 1
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "BB98CCBB",
+				"Name": "",
+				"type": "Input_ColorSlider",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Color",
+				"coordinates": "1512 720",
+				"view_size": "292 176",
+				"metadata": {
+					"saved_color": {
+						"type": "Color",
+						"value": "0 175.313 255 1"
+					}
+				},
+				"input_slots": [
+					{
+						"home_component": "BB98CCBB",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "C",
+						"slot_label": "Color",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Color",
+											"var_value": "0 0.687502 1 1"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "BB98CCBB",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "8F97AF02",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "C0A6C87C",
+				"Name": "",
+				"type": "Input_ColorSlider",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Color",
+				"coordinates": "1494 931",
+				"view_size": "292 176",
+				"metadata": {
+					"saved_color": {
+						"type": "Color",
+						"value": "255 1 0 1"
+					}
+				},
+				"input_slots": [
+					{
+						"home_component": "C0A6C87C",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "C",
+						"slot_label": "Color",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Color",
+											"var_value": "1 0.00392157 0 1"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "C0A6C87C",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "8F97AF02",
+								"linked_slot_index": 1
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "318A62B5",
+				"Name": "",
+				"type": "Input_Panel",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Color",
+				"coordinates": "1013 264",
+				"view_size": "250 156",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "318A62B5",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "",
+						"slot_label": "",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "String",
+											"var_value": "Materials/DefaultGrey.xml"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "318A62B5",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "B24B5F08",
+								"linked_slot_index": 1
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "A3940183",
+				"Name": "",
+				"type": "Input_Panel",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Color",
+				"coordinates": "1843 359",
+				"view_size": "132 156",
+				"metadata": {
+					"TargetType": {
+						"type": "String",
+						"value": "int"
+					}
+				},
+				"input_slots": [
+					{
+						"home_component": "A3940183",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "",
+						"slot_label": "",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Int",
+											"var_value": "1"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "A3940183",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "DFB386B1",
+								"linked_slot_index": 3
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "D5242B33",
+				"Name": "",
+				"type": "Input_ColorSlider",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Scene",
+				"coordinates": "130 181",
+				"view_size": "292 176",
+				"metadata": {
+					"saved_color": {
+						"type": "Color",
+						"value": "1 1 1 1"
+					}
+				},
+				"input_slots": [
+					{
+						"home_component": "D5242B33",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "C",
+						"slot_label": "Color",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Color",
+											"var_value": "0.00392157 0.00392157 0.00392157 1"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "D5242B33",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "E4756B4C",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "743900F2",
+				"Name": "",
+				"type": "Input_ColorSlider",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Scene",
+				"coordinates": "139 388",
+				"view_size": "292 221",
+				"metadata": {
+					"saved_color": {
+						"type": "Color",
+						"value": "15.9375 17.3864 28.9773 1"
+					}
+				},
+				"input_slots": [
+					{
+						"home_component": "743900F2",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "C",
+						"slot_label": "Color",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Color",
+											"var_value": "0.0625 0.068182 0.113636 1"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "743900F2",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "E4756B4C",
+								"linked_slot_index": 1
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "0883C383",
+				"Name": "",
+				"type": "Graphics_MeshEdges",
+				"num_inputs": 3,
+				"num_outputs": 2,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Vault",
+				"coordinates": "1897 247",
+				"view_size": "114 104",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "0883C383",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "M",
+						"slot_label": "Mesh",
+						"protected": true,
+						"linked_component": "C6F48F8D",
+						"linked_slot_index": 1
+					},
+					{
+						"home_component": "0883C383",
+						"slot_index": 1,
+						"data_access": 0,
+						"slot_var_label": "C",
+						"slot_label": "Color",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Color",
+											"var_value": "0 0 0 1"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "0883C383",
+						"slot_index": 2,
+						"data_access": 0,
+						"slot_var_label": "W",
+						"slot_label": "Width",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Float",
+											"var_value": "1"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "0883C383",
+						"slot_index": 0,
+						"linked_inputs": []
+					},
+					{
+						"home_component": "0883C383",
+						"slot_index": 1,
+						"linked_inputs": []
+					}
+				]
+			},
+			{
+				"ID": "6C925DEA",
+				"Name": "",
+				"type": "Maths_Division",
+				"num_inputs": 2,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "Color",
+				"coordinates": "1454 539",
+				"view_size": "91 82",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "6C925DEA",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "X",
+						"slot_label": "X",
+						"protected": true,
+						"linked_component": "E00F0C7A",
+						"linked_slot_index": 1
+					},
+					{
+						"home_component": "6C925DEA",
+						"slot_index": 1,
+						"data_access": 0,
+						"slot_var_label": "Y",
+						"slot_label": "Y",
+						"protected": true,
+						"linked_component": "BF5CE4BD",
+						"linked_slot_index": 0
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "6C925DEA",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "8F97AF02",
+								"linked_slot_index": 2
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
