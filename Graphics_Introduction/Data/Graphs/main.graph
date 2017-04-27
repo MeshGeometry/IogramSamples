@@ -426,7 +426,7 @@
 					},
 					"value": {
 						"type": "Float",
-						"value": "8.0597"
+						"value": "9.13433"
 					}
 				},
 				"input_slots": [
@@ -446,7 +446,7 @@
 									"items": [
 										{
 											"var_type": "Float",
-											"var_value": "8.0597"
+											"var_value": "9.13433"
 										}
 									]
 								}
@@ -476,7 +476,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
-				"coordinates": "227 589",
+				"coordinates": "287 538",
 				"view_size": "292 176",
 				"metadata": {
 					"saved_color": {
@@ -501,7 +501,7 @@
 									"items": [
 										{
 											"var_type": "Color",
-											"var_value": "0.482953 0.454545 0.607955 1"
+											"var_value": "0.482953 0.454545 0.607953 1"
 										}
 									]
 								}
@@ -531,7 +531,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "BasePlane",
-				"coordinates": "722 214",
+				"coordinates": "670 203",
 				"view_size": "186 82",
 				"metadata": null,
 				"input_slots": [
@@ -591,7 +591,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "BasePlane",
-				"coordinates": "949 227",
+				"coordinates": "897 210",
 				"view_size": "224 126",
 				"metadata": null,
 				"input_slots": [
@@ -612,21 +612,8 @@
 						"slot_var_label": "MT",
 						"slot_label": "Material",
 						"protected": true,
-						"linked_component": "",
-						"linked_slot_index": -1,
-						"input_tree": {
-							"branches": [
-								{
-									"path": "0_",
-									"items": [
-										{
-											"var_type": "String",
-											"var_value": "Materials/BasePlane.xml"
-										}
-									]
-								}
-							]
-						}
+						"linked_component": "87C10403",
+						"linked_slot_index": 0
 					},
 					{
 						"home_component": "35C0B08A",
@@ -697,7 +684,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
-				"coordinates": "331 941",
+				"coordinates": "409 934",
 				"view_size": "292 176",
 				"metadata": {
 					"saved_color": {
@@ -752,7 +739,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "BasePlane",
-				"coordinates": "885 456",
+				"coordinates": "717 490",
 				"view_size": "138 148",
 				"metadata": null,
 				"input_slots": [
@@ -889,7 +876,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "BasePlane",
-				"coordinates": "500 255",
+				"coordinates": "457 374",
 				"view_size": "176 104",
 				"metadata": null,
 				"input_slots": [
@@ -972,7 +959,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "BasePlane",
-				"coordinates": "231 237",
+				"coordinates": "240 370",
 				"view_size": "162 116",
 				"metadata": {
 					"max": {
@@ -1031,7 +1018,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
-				"coordinates": "1596 855",
+				"coordinates": "1561 845",
 				"view_size": "146 104",
 				"metadata": null,
 				"input_slots": [
@@ -1114,7 +1101,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
-				"coordinates": "1216 331",
+				"coordinates": "1016 489",
 				"view_size": "132 104",
 				"metadata": null,
 				"input_slots": [
@@ -1179,7 +1166,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
-				"coordinates": "865 544",
+				"coordinates": "637 572",
 				"view_size": "282 148",
 				"metadata": null,
 				"input_slots": [
@@ -1492,7 +1479,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
-				"coordinates": "1064 1039",
+				"coordinates": "1001 1357",
 				"view_size": "172 126",
 				"metadata": null,
 				"input_slots": [
@@ -1503,21 +1490,8 @@
 						"slot_var_label": "RP",
 						"slot_label": "RenderPath",
 						"protected": true,
-						"linked_component": "",
-						"linked_slot_index": -1,
-						"input_tree": {
-							"branches": [
-								{
-									"path": "0_",
-									"items": [
-										{
-											"var_type": "String",
-											"var_value": "PostProcess/RemapToGradient.xml"
-										}
-									]
-								}
-							]
-						}
+						"linked_component": "19E9EE34",
+						"linked_slot_index": 0
 					},
 					{
 						"home_component": "94A8BC73",
@@ -1535,7 +1509,7 @@
 									"items": [
 										{
 											"var_type": "Float",
-											"var_value": "6"
+											"var_value": "2"
 										}
 									]
 								}
@@ -1606,7 +1580,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
-				"coordinates": "1317 1050",
+				"coordinates": "1000 1197",
 				"view_size": "172 126",
 				"metadata": null,
 				"input_slots": [
@@ -1617,21 +1591,8 @@
 						"slot_var_label": "RP",
 						"slot_label": "RenderPath",
 						"protected": true,
-						"linked_component": "",
-						"linked_slot_index": -1,
-						"input_tree": {
-							"branches": [
-								{
-									"path": "0_",
-									"items": [
-										{
-											"var_type": "String",
-											"var_value": "PostProcess/Vibrance.xml"
-										}
-									]
-								}
-							]
-						}
+						"linked_component": "77343D49",
+						"linked_slot_index": 0
 					},
 					{
 						"home_component": "74C4D185",
@@ -1649,7 +1610,7 @@
 									"items": [
 										{
 											"var_type": "Float",
-											"var_value": "8"
+											"var_value": "1"
 										}
 									]
 								}
@@ -1771,47 +1732,34 @@
 				]
 			},
 			{
-				"ID": "B075DABA",
+				"ID": "89BC42C1",
 				"Name": "",
-				"type": "Mesh_Torus",
-				"num_inputs": 5,
-				"num_outputs": 2,
+				"type": "Scene_AppendRenderPath",
+				"num_inputs": 4,
+				"num_outputs": 1,
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
-				"coordinates": "772 1264",
-				"view_size": "192 148",
+				"coordinates": "1005 1517",
+				"view_size": "172 126",
 				"metadata": null,
 				"input_slots": [
 					{
-						"home_component": "B075DABA",
+						"home_component": "89BC42C1",
 						"slot_index": 0,
 						"data_access": 0,
-						"slot_var_label": "O",
-						"slot_label": "OuterRadius",
+						"slot_var_label": "RP",
+						"slot_label": "RenderPath",
 						"protected": true,
-						"linked_component": "",
-						"linked_slot_index": -1,
-						"input_tree": {
-							"branches": [
-								{
-									"path": "0_",
-									"items": [
-										{
-											"var_type": "Float",
-											"var_value": "2"
-										}
-									]
-								}
-							]
-						}
+						"linked_component": "10AF79F8",
+						"linked_slot_index": 0
 					},
 					{
-						"home_component": "B075DABA",
+						"home_component": "89BC42C1",
 						"slot_index": 1,
 						"data_access": 0,
-						"slot_var_label": "I",
-						"slot_label": "InnerRadius",
+						"slot_var_label": "VP",
+						"slot_label": "ViewportID",
 						"protected": true,
 						"linked_component": "",
 						"linked_slot_index": -1,
@@ -1822,7 +1770,7 @@
 									"items": [
 										{
 											"var_type": "Float",
-											"var_value": "2"
+											"var_value": "3"
 										}
 									]
 								}
@@ -1830,11 +1778,11 @@
 						}
 					},
 					{
-						"home_component": "B075DABA",
+						"home_component": "89BC42C1",
 						"slot_index": 2,
-						"data_access": 0,
-						"slot_var_label": "P1",
-						"slot_label": "FirstPower",
+						"data_access": 1,
+						"slot_var_label": "P",
+						"slot_label": "Parameters",
 						"protected": true,
 						"linked_component": "",
 						"linked_slot_index": -1,
@@ -1844,8 +1792,8 @@
 									"path": "0_",
 									"items": [
 										{
-											"var_type": "Float",
-											"var_value": "1"
+											"var_type": "None",
+											"var_value": ""
 										}
 									]
 								}
@@ -1853,11 +1801,11 @@
 						}
 					},
 					{
-						"home_component": "B075DABA",
+						"home_component": "89BC42C1",
 						"slot_index": 3,
-						"data_access": 0,
-						"slot_var_label": "P2",
-						"slot_label": "SecondPower",
+						"data_access": 1,
+						"slot_var_label": "V",
+						"slot_label": "Values",
 						"protected": true,
 						"linked_component": "",
 						"linked_slot_index": -1,
@@ -1867,31 +1815,8 @@
 									"path": "0_",
 									"items": [
 										{
-											"var_type": "Float",
-											"var_value": "1"
-										}
-									]
-								}
-							]
-						}
-					},
-					{
-						"home_component": "B075DABA",
-						"slot_index": 4,
-						"data_access": 0,
-						"slot_var_label": "R",
-						"slot_label": "MeshResolution",
-						"protected": true,
-						"linked_component": "",
-						"linked_slot_index": -1,
-						"input_tree": {
-							"branches": [
-								{
-									"path": "0_",
-									"items": [
-										{
-											"var_type": "Int",
-											"var_value": "8"
+											"var_type": "None",
+											"var_value": ""
 										}
 									]
 								}
@@ -1901,16 +1826,56 @@
 				],
 				"output_slots": [
 					{
-						"home_component": "B075DABA",
+						"home_component": "89BC42C1",
 						"slot_index": 0,
 						"linked_inputs": []
-					},
+					}
+				]
+			},
+			{
+				"ID": "10AF79F8",
+				"Name": "",
+				"type": "Input_Panel",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "MyGraphView",
+				"coordinates": "679 1515",
+				"view_size": "282 156",
+				"metadata": null,
+				"input_slots": [
 					{
-						"home_component": "B075DABA",
-						"slot_index": 1,
+						"home_component": "10AF79F8",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "",
+						"slot_label": "",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "String",
+											"var_value": "PostProcess/Greyscale.xml"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "10AF79F8",
+						"slot_index": 0,
 						"linked_inputs": [
 							{
-								"linked_component": "EE1DD16E",
+								"linked_component": "89BC42C1",
 								"linked_slot_index": 0
 							}
 						]
@@ -1918,34 +1883,24 @@
 				]
 			},
 			{
-				"ID": "EE1DD16E",
+				"ID": "19E9EE34",
 				"Name": "",
-				"type": "Graphics_MeshEdges",
-				"num_inputs": 3,
-				"num_outputs": 2,
+				"type": "Input_Panel",
+				"num_inputs": 1,
+				"num_outputs": 1,
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
-				"coordinates": "1159 1262",
-				"view_size": "114 104",
+				"coordinates": "679 1348",
+				"view_size": "276 156",
 				"metadata": null,
 				"input_slots": [
 					{
-						"home_component": "EE1DD16E",
+						"home_component": "19E9EE34",
 						"slot_index": 0,
 						"data_access": 0,
-						"slot_var_label": "M",
-						"slot_label": "Mesh",
-						"protected": true,
-						"linked_component": "B075DABA",
-						"linked_slot_index": 1
-					},
-					{
-						"home_component": "EE1DD16E",
-						"slot_index": 1,
-						"data_access": 0,
-						"slot_var_label": "C",
-						"slot_label": "Color",
+						"slot_var_label": "",
+						"slot_label": "",
 						"protected": true,
 						"linked_component": "",
 						"linked_slot_index": -1,
@@ -1955,31 +1910,8 @@
 									"path": "0_",
 									"items": [
 										{
-											"var_type": "Color",
-											"var_value": "0 0 0 1"
-										}
-									]
-								}
-							]
-						}
-					},
-					{
-						"home_component": "EE1DD16E",
-						"slot_index": 2,
-						"data_access": 0,
-						"slot_var_label": "W",
-						"slot_label": "Width",
-						"protected": true,
-						"linked_component": "",
-						"linked_slot_index": -1,
-						"input_tree": {
-							"branches": [
-								{
-									"path": "0_",
-									"items": [
-										{
-											"var_type": "Float",
-											"var_value": "0.1"
+											"var_type": "String",
+											"var_value": "PostProcess/RemapToGradient.xml"
 										}
 									]
 								}
@@ -1989,14 +1921,114 @@
 				],
 				"output_slots": [
 					{
-						"home_component": "EE1DD16E",
+						"home_component": "19E9EE34",
 						"slot_index": 0,
-						"linked_inputs": []
-					},
+						"linked_inputs": [
+							{
+								"linked_component": "94A8BC73",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "77343D49",
+				"Name": "",
+				"type": "Input_Panel",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "MyGraphView",
+				"coordinates": "678 1178",
+				"view_size": "273 156",
+				"metadata": null,
+				"input_slots": [
 					{
-						"home_component": "EE1DD16E",
-						"slot_index": 1,
-						"linked_inputs": []
+						"home_component": "77343D49",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "",
+						"slot_label": "",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "String",
+											"var_value": "PostProcess/Vibrance.xml"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "77343D49",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "74C4D185",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "87C10403",
+				"Name": "",
+				"type": "Input_Panel",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "BasePlane",
+				"coordinates": "665 300",
+				"view_size": "206 156",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "87C10403",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "",
+						"slot_label": "",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "String",
+											"var_value": "Materials/BasePlane.xml"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "87C10403",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "35C0B08A",
+								"linked_slot_index": 1
+							}
+						]
 					}
 				]
 			}
