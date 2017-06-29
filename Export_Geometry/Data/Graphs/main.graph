@@ -1,56 +1,7 @@
 {
 	"graph": {
 		"components": [
-			{
-				"ID": "F5655A6F",
-				"Name": "",
-				"type": "Mesh_Sphere",
-				"num_inputs": 1,
-				"num_outputs": 1,
-				"preview": true,
-				"enabled": true,
-				"unique_view_name": "MyGraphView",
-				"coordinates": "204 45",
-				"view_size": "186 80",
-				"metadata": null,
-				"input_slots": [
-					{
-						"home_component": "F5655A6F",
-						"slot_index": 0,
-						"data_access": 0,
-						"slot_var_label": "T",
-						"slot_label": "Transformation",
-						"protected": true,
-						"linked_component": "",
-						"linked_slot_index": -1,
-						"input_tree": {
-							"branches": [
-								{
-									"path": "0_",
-									"items": [
-										{
-											"var_type": "Matrix3x4",
-											"var_value": "1 0 0 0 0 1 0 0 0 0 1 0"
-										}
-									]
-								}
-							]
-						}
-					}
-				],
-				"output_slots": [
-					{
-						"home_component": "F5655A6F",
-						"slot_index": 0,
-						"linked_inputs": [
-							{
-								"linked_component": "9D846981",
-								"linked_slot_index": 0
-							}
-						]
-					}
-				]
-			},
+			
 			{
 				"ID": "9751477D",
 				"Name": "",

@@ -84,7 +84,48 @@
 				<attribute name="Border" value="10 10 10 10" />
 				<attribute name="Split Ratio" value="0.5" />
 				<attribute name="Split Type" value="MWL_VERTICAL" />
-				<attribute name="Content Type" value="-1623719521" />
+				<attribute name="Content Type" value="889489016" />
+				<element type="ModularWindow">
+					<attribute name="Name" value="__FIRST_CHILD__" />
+					<attribute name="Size" value="364 244" />
+					<attribute name="Pivot" value="0 0" />
+					<attribute name="Color" value="0.12 0.12 0.12 1" />
+					<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
+					<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
+					<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
+					<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
+					<attribute name="Border" value="10 10 10 10" />
+					<attribute name="Split Ratio" value="0.5" />
+					<attribute name="Split Type" value="MWL_HORIZONTAL" />
+					<attribute name="Content Type" value="-1623719521" />
+				</element>
+				<element type="ModularWindow">
+					<attribute name="Name" value="__SECOND_CHILD__" />
+					<attribute name="Position" value="0 244" />
+					<attribute name="Size" value="364 245" />
+					<attribute name="Pivot" value="0 0" />
+					<attribute name="Color" value="0.12 0.12 0.12 1" />
+					<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
+					<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
+					<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
+					<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
+					<attribute name="Border" value="10 10 10 10" />
+					<attribute name="Split Ratio" value="0.5" />
+					<attribute name="Split Type" value="MWL_HORIZONTAL" />
+					<attribute name="Content Type" value="-1623719521" />
+				</element>
+				<element type="Button" internal="true" style="none">
+					<attribute name="Name" value="__DIVIDER__" />
+					<attribute name="Position" value="0 242" />
+					<attribute name="Size" value="364 4" />
+					<attribute name="Pivot" value="0 0" />
+					<attribute name="Priority" value="1000" />
+					<attribute name="Color" value="0.07 0.07 0.07 1" />
+					<attribute name="Top Left Color" value="0.07 0.07 0.07 1" />
+					<attribute name="Top Right Color" value="0.07 0.07 0.07 1" />
+					<attribute name="Bottom Left Color" value="0.07 0.07 0.07 1" />
+					<attribute name="Bottom Right Color" value="0.07 0.07 0.07 1" />
+				</element>
 			</element>
 			<element type="Button">
 				<attribute name="Name" value="__DIVIDER__" />

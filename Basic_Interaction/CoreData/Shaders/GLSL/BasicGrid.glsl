@@ -15,7 +15,9 @@ varying float vDepth;
 
 #ifdef COMPILEPS
 
-uniform float cGridScale = 500.0;
+#extension GL_OES_standard_derivatives : enable
+
+uniform float cGridScale;
 
 float IsAxis(vec2 coord, float lineWidth)
 {
@@ -36,7 +38,7 @@ float IsGridLine(vec2 coord, float scale, float lineWidth)
     vec2 grid = abs(fract(coord - 0.5) - 0.5) / fwidth(lineWidth * coord);
     float line = min(grid.x, grid.y);
 
-    line = 1.0 - smoothstep(pow(line, 2), 0.0, 1.0);
+    line = 1.0 - smoothstep(pow(line, 2.0), 0.0, 1.0);
 
     return line;
 }

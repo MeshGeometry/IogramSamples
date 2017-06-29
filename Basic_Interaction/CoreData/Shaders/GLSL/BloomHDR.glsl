@@ -17,8 +17,6 @@ uniform vec2 cBright2InvSize;
 uniform vec2 cBright4InvSize;
 uniform vec2 cBright8InvSize;
 uniform vec2 cBright16InvSize;
-
-const int BlurKernelSize = 5;
 #endif
 
 void VS()
@@ -32,6 +30,8 @@ void VS()
 
 void PS()
 {
+    int BlurKernelSize = 5;
+
     #ifdef BRIGHT
     vec3 color = texture2D(sDiffMap, vScreenPos).rgb;
     gl_FragColor = vec4(max(color - cBloomHDRThreshold, 0.0), 1.0);
