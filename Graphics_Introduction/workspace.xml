@@ -11,14 +11,14 @@
 	<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
 	<attribute name="Variables">
 		<variant hash="1369052027" type="Ptr" value="0" />
-		<variant hash="4022291303" type="Int" value="3" />
+		<variant hash="4022291303" type="Int" value="2" />
 	</attribute>
 	<attribute name="Border" value="10 10 10 10" />
-	<attribute name="Split Ratio" value="0.379687" />
+	<attribute name="Split Ratio" value="0.430208" />
 	<attribute name="Content Type" value="889489016" />
 	<element type="ModularWindow" style="ModularWindow">
 		<attribute name="Name" value="__FIRST_CHILD__" />
-		<attribute name="Size" value="731 981" />
+		<attribute name="Size" value="828 981" />
 		<attribute name="Pivot" value="0 0" />
 		<attribute name="Color" value="0.12 0.12 0.12 1" />
 		<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -31,7 +31,7 @@
 		<attribute name="Content Type" value="889489016" />
 		<element type="ModularWindow" style="ModularWindow">
 			<attribute name="Name" value="__FIRST_CHILD__" />
-			<attribute name="Size" value="731 492" />
+			<attribute name="Size" value="828 492" />
 			<attribute name="Pivot" value="0 0" />
 			<attribute name="Color" value="0.12 0.12 0.12 1" />
 			<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -42,11 +42,16 @@
 			<attribute name="Split Ratio" value="0.5" />
 			<attribute name="Split Type" value="MWL_HORIZONTAL" />
 			<attribute name="Content Type" value="-1623719521" />
+			<content>
+				<attribute name="Cam Local Pos" value="-0.000196631 41.5354 -115.987" />
+				<attribute name="Cam Root Rot" value="0.979575 0 -0.201078 0" />
+				<attribute name="Cam Local Rot" value="0.98526 0.17107 8.19564e-07 -5.58794e-08" />
+			</content>
 		</element>
 		<element type="ModularWindow" style="ModularWindow">
 			<attribute name="Name" value="__SECOND_CHILD__" />
 			<attribute name="Position" value="0 492" />
-			<attribute name="Size" value="731 489" />
+			<attribute name="Size" value="828 489" />
 			<attribute name="Pivot" value="0 0" />
 			<attribute name="Color" value="0.12 0.12 0.12 1" />
 			<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -59,7 +64,7 @@
 			<attribute name="Content Type" value="889489016" />
 			<element type="ModularWindow" style="ModularWindow">
 				<attribute name="Name" value="__FIRST_CHILD__" />
-				<attribute name="Size" value="367 489" />
+				<attribute name="Size" value="416 489" />
 				<attribute name="Pivot" value="0 0" />
 				<attribute name="Color" value="0.12 0.12 0.12 1" />
 				<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -70,11 +75,16 @@
 				<attribute name="Split Ratio" value="0.5" />
 				<attribute name="Split Type" value="MWL_VERTICAL" />
 				<attribute name="Content Type" value="-1623719521" />
+				<content>
+					<attribute name="Cam Local Pos" value="2.86898e-06 37.4764 -77.8704" />
+					<attribute name="Cam Root Rot" value="0.993865 0 -0.110602 0" />
+					<attribute name="Cam Local Rot" value="0.974956 0.222399 -1.49012e-08 -9.31323e-09" />
+				</content>
 			</element>
 			<element type="ModularWindow" style="ModularWindow">
 				<attribute name="Name" value="__SECOND_CHILD__" />
-				<attribute name="Position" value="367 0" />
-				<attribute name="Size" value="364 489" />
+				<attribute name="Position" value="416 0" />
+				<attribute name="Size" value="412 489" />
 				<attribute name="Pivot" value="0 0" />
 				<attribute name="Color" value="0.12 0.12 0.12 1" />
 				<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -84,52 +94,16 @@
 				<attribute name="Border" value="10 10 10 10" />
 				<attribute name="Split Ratio" value="0.5" />
 				<attribute name="Split Type" value="MWL_VERTICAL" />
-				<attribute name="Content Type" value="889489016" />
-				<element type="ModularWindow">
-					<attribute name="Name" value="__FIRST_CHILD__" />
-					<attribute name="Size" value="364 244" />
-					<attribute name="Pivot" value="0 0" />
-					<attribute name="Color" value="0.12 0.12 0.12 1" />
-					<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
-					<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
-					<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
-					<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
-					<attribute name="Border" value="10 10 10 10" />
-					<attribute name="Split Ratio" value="0.5" />
-					<attribute name="Split Type" value="MWL_HORIZONTAL" />
-					<attribute name="Content Type" value="-1623719521" />
-				</element>
-				<element type="ModularWindow">
-					<attribute name="Name" value="__SECOND_CHILD__" />
-					<attribute name="Position" value="0 244" />
-					<attribute name="Size" value="364 245" />
-					<attribute name="Pivot" value="0 0" />
-					<attribute name="Color" value="0.12 0.12 0.12 1" />
-					<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
-					<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
-					<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
-					<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
-					<attribute name="Border" value="10 10 10 10" />
-					<attribute name="Split Ratio" value="0.5" />
-					<attribute name="Split Type" value="MWL_HORIZONTAL" />
-					<attribute name="Content Type" value="-1623719521" />
-				</element>
-				<element type="Button" internal="true" style="none">
-					<attribute name="Name" value="__DIVIDER__" />
-					<attribute name="Position" value="0 242" />
-					<attribute name="Size" value="364 4" />
-					<attribute name="Pivot" value="0 0" />
-					<attribute name="Priority" value="1000" />
-					<attribute name="Color" value="0.07 0.07 0.07 1" />
-					<attribute name="Top Left Color" value="0.07 0.07 0.07 1" />
-					<attribute name="Top Right Color" value="0.07 0.07 0.07 1" />
-					<attribute name="Bottom Left Color" value="0.07 0.07 0.07 1" />
-					<attribute name="Bottom Right Color" value="0.07 0.07 0.07 1" />
-				</element>
+				<attribute name="Content Type" value="-1623719521" />
+				<content>
+					<attribute name="Cam Local Pos" value="3.57806e-06 34.6264 -131.989" />
+					<attribute name="Cam Root Rot" value="0.992439 0 -0.122735 0" />
+					<attribute name="Cam Local Rot" value="0.991783 0.12793 -1.49012e-08 1.30385e-08" />
+				</content>
 			</element>
 			<element type="Button">
 				<attribute name="Name" value="__DIVIDER__" />
-				<attribute name="Position" value="365 0" />
+				<attribute name="Position" value="414 0" />
 				<attribute name="Size" value="4 489" />
 				<attribute name="Pivot" value="0 0" />
 				<attribute name="Priority" value="1000" />
@@ -143,7 +117,7 @@
 		<element type="Button">
 			<attribute name="Name" value="__DIVIDER__" />
 			<attribute name="Position" value="0 490" />
-			<attribute name="Size" value="731 4" />
+			<attribute name="Size" value="828 4" />
 			<attribute name="Pivot" value="0 0" />
 			<attribute name="Priority" value="1000" />
 			<attribute name="Color" value="0.07 0.07 0.07 1" />
@@ -155,8 +129,8 @@
 	</element>
 	<element type="ModularWindow" style="ModularWindow">
 		<attribute name="Name" value="__SECOND_CHILD__" />
-		<attribute name="Position" value="731 0" />
-		<attribute name="Size" value="1189 981" />
+		<attribute name="Position" value="828 0" />
+		<attribute name="Size" value="1092 981" />
 		<attribute name="Pivot" value="0 0" />
 		<attribute name="Color" value="0.12 0.12 0.12 1" />
 		<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -169,7 +143,7 @@
 		<attribute name="Content Type" value="889489016" />
 		<element type="ModularWindow" style="ModularWindow">
 			<attribute name="Name" value="__FIRST_CHILD__" />
-			<attribute name="Size" value="1189 220" />
+			<attribute name="Size" value="1092 219" />
 			<attribute name="Pivot" value="0 0" />
 			<attribute name="Color" value="0.12 0.12 0.12 1" />
 			<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -177,55 +151,17 @@
 			<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
 			<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
 			<attribute name="Border" value="10 10 10 10" />
-			<attribute name="Split Ratio" value="0.403701" />
+			<attribute name="Split Ratio" value="0.619963" />
 			<attribute name="Split Type" value="MWL_HORIZONTAL" />
-			<attribute name="Content Type" value="889489016" />
-			<element type="ModularWindow" style="ModularWindow">
-				<attribute name="Name" value="__FIRST_CHILD__" />
-				<attribute name="Size" value="482 220" />
-				<attribute name="Pivot" value="0 0" />
-				<attribute name="Color" value="0.12 0.12 0.12 1" />
-				<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
-				<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
-				<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
-				<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
-				<attribute name="Border" value="10 10 10 10" />
-				<attribute name="Split Ratio" value="0.5" />
-				<attribute name="Split Type" value="MWL_VERTICAL" />
-				<attribute name="Content Type" value="1514433550" />
-			</element>
-			<element type="ModularWindow" style="ModularWindow">
-				<attribute name="Name" value="__SECOND_CHILD__" />
-				<attribute name="Position" value="482 0" />
-				<attribute name="Size" value="707 220" />
-				<attribute name="Pivot" value="0 0" />
-				<attribute name="Color" value="0.12 0.12 0.12 1" />
-				<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
-				<attribute name="Top Right Color" value="0.12 0.12 0.12 1" />
-				<attribute name="Bottom Left Color" value="0.12 0.12 0.12 1" />
-				<attribute name="Bottom Right Color" value="0.12 0.12 0.12 1" />
-				<attribute name="Border" value="10 10 10 10" />
-				<attribute name="Split Ratio" value="0.5" />
-				<attribute name="Split Type" value="MWL_VERTICAL" />
-				<attribute name="Content Type" value="-917570003" />
-			</element>
-			<element type="Button">
-				<attribute name="Name" value="__DIVIDER__" />
-				<attribute name="Position" value="480 0" />
-				<attribute name="Size" value="4 220" />
-				<attribute name="Pivot" value="0 0" />
-				<attribute name="Priority" value="1000" />
-				<attribute name="Color" value="0.07 0.07 0.07 1" />
-				<attribute name="Top Left Color" value="0.07 0.07 0.07 1" />
-				<attribute name="Top Right Color" value="0.07 0.07 0.07 1" />
-				<attribute name="Bottom Left Color" value="0.07 0.07 0.07 1" />
-				<attribute name="Bottom Right Color" value="0.07 0.07 0.07 1" />
-			</element>
+			<attribute name="Content Type" value="-917570003" />
+			<content>
+				<attribute name="Path" value="C:/git-repos/IogramSamples/Graphics_Introduction/Data/Materials/" />
+			</content>
 		</element>
 		<element type="ModularWindow" style="ModularWindow">
 			<attribute name="Name" value="__SECOND_CHILD__" />
-			<attribute name="Position" value="0 220" />
-			<attribute name="Size" value="1189 761" />
+			<attribute name="Position" value="0 219" />
+			<attribute name="Size" value="1092 762" />
 			<attribute name="Pivot" value="0 0" />
 			<attribute name="Color" value="0.12 0.12 0.12 1" />
 			<attribute name="Top Left Color" value="0.12 0.12 0.12 1" />
@@ -236,11 +172,14 @@
 			<attribute name="Split Ratio" value="0.5" />
 			<attribute name="Split Type" value="MWL_HORIZONTAL" />
 			<attribute name="Content Type" value="-411129535" />
+			<content>
+				<attribute name="View filter" value="BasePlane" />
+			</content>
 		</element>
 		<element type="Button">
 			<attribute name="Name" value="__DIVIDER__" />
-			<attribute name="Position" value="0 218" />
-			<attribute name="Size" value="1189 4" />
+			<attribute name="Position" value="0 217" />
+			<attribute name="Size" value="1092 4" />
 			<attribute name="Pivot" value="0 0" />
 			<attribute name="Priority" value="1000" />
 			<attribute name="Color" value="0.07 0.07 0.07 1" />
@@ -252,7 +191,7 @@
 	</element>
 	<element type="Button">
 		<attribute name="Name" value="__DIVIDER__" />
-		<attribute name="Position" value="729 0" />
+		<attribute name="Position" value="826 0" />
 		<attribute name="Size" value="4 981" />
 		<attribute name="Pivot" value="0 0" />
 		<attribute name="Priority" value="1000" />

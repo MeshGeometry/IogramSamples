@@ -10,7 +10,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
-				"coordinates": "388 357",
+				"coordinates": "383 409",
 				"view_size": "192 170",
 				"metadata": null,
 				"input_slots": [
@@ -176,7 +176,7 @@
 				"Name": "",
 				"type": "Graphics_MeshRenderer",
 				"num_inputs": 4,
-				"num_outputs": 2,
+				"num_outputs": 3,
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
@@ -247,8 +247,21 @@
 						"slot_var_label": "C",
 						"slot_label": "Color",
 						"protected": true,
-						"linked_component": "9A67FD50",
-						"linked_slot_index": 0
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Color",
+											"var_value": "1 1 1 1"
+										}
+									]
+								}
+							]
+						}
 					}
 				],
 				"output_slots": [
@@ -265,6 +278,11 @@
 					{
 						"home_component": "126B6A3A",
 						"slot_index": 1,
+						"linked_inputs": []
+					},
+					{
+						"home_component": "126B6A3A",
+						"slot_index": 2,
 						"linked_inputs": []
 					}
 				]
@@ -468,71 +486,16 @@
 				]
 			},
 			{
-				"ID": "9A67FD50",
-				"Name": "",
-				"type": "Input_ColorSlider",
-				"num_inputs": 1,
-				"num_outputs": 1,
-				"preview": true,
-				"enabled": true,
-				"unique_view_name": "MyGraphView",
-				"coordinates": "287 538",
-				"view_size": "292 176",
-				"metadata": {
-					"saved_color": {
-						"type": "Color",
-						"value": "123.153 115.909 155.028 1"
-					}
-				},
-				"input_slots": [
-					{
-						"home_component": "9A67FD50",
-						"slot_index": 0,
-						"data_access": 0,
-						"slot_var_label": "C",
-						"slot_label": "Color",
-						"protected": true,
-						"linked_component": "",
-						"linked_slot_index": -1,
-						"input_tree": {
-							"branches": [
-								{
-									"path": "0_",
-									"items": [
-										{
-											"var_type": "Color",
-											"var_value": "0.482953 0.454545 0.607953 1"
-										}
-									]
-								}
-							]
-						}
-					}
-				],
-				"output_slots": [
-					{
-						"home_component": "9A67FD50",
-						"slot_index": 0,
-						"linked_inputs": [
-							{
-								"linked_component": "126B6A3A",
-								"linked_slot_index": 3
-							}
-						]
-					}
-				]
-			},
-			{
 				"ID": "56A56DF9",
 				"Name": "",
 				"type": "Mesh_Plane",
 				"num_inputs": 2,
-				"num_outputs": 1,
+				"num_outputs": 3,
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "BasePlane",
-				"coordinates": "670 203",
-				"view_size": "186 82",
+				"coordinates": "632 147",
+				"view_size": "186 104",
 				"metadata": null,
 				"input_slots": [
 					{
@@ -542,21 +505,8 @@
 						"slot_var_label": "Height",
 						"slot_label": "Height",
 						"protected": true,
-						"linked_component": "",
-						"linked_slot_index": -1,
-						"input_tree": {
-							"branches": [
-								{
-									"path": "0_",
-									"items": [
-										{
-											"var_type": "Float",
-											"var_value": "-0.3"
-										}
-									]
-								}
-							]
-						}
+						"linked_component": "68519640",
+						"linked_slot_index": 0
 					},
 					{
 						"home_component": "56A56DF9",
@@ -565,8 +515,21 @@
 						"slot_var_label": "T",
 						"slot_label": "Transformation",
 						"protected": true,
-						"linked_component": "CF235480",
-						"linked_slot_index": 0
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "None",
+											"var_value": ""
+										}
+									]
+								}
+							]
+						}
 					}
 				],
 				"output_slots": [
@@ -579,6 +542,16 @@
 								"linked_slot_index": 0
 							}
 						]
+					},
+					{
+						"home_component": "56A56DF9",
+						"slot_index": 1,
+						"linked_inputs": []
+					},
+					{
+						"home_component": "56A56DF9",
+						"slot_index": 2,
+						"linked_inputs": []
 					}
 				]
 			},
@@ -587,11 +560,11 @@
 				"Name": "",
 				"type": "Graphics_MeshRenderer",
 				"num_inputs": 4,
-				"num_outputs": 2,
+				"num_outputs": 3,
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "BasePlane",
-				"coordinates": "897 210",
+				"coordinates": "928 153",
 				"view_size": "224 126",
 				"metadata": null,
 				"input_slots": [
@@ -643,7 +616,7 @@
 						"slot_index": 3,
 						"data_access": 0,
 						"slot_var_label": "C",
-						"slot_label": "Color",
+						"slot_label": "C",
 						"protected": true,
 						"linked_component": "",
 						"linked_slot_index": -1,
@@ -672,6 +645,11 @@
 						"home_component": "35C0B08A",
 						"slot_index": 1,
 						"linked_inputs": []
+					},
+					{
+						"home_component": "35C0B08A",
+						"slot_index": 2,
+						"linked_inputs": []
 					}
 				]
 			},
@@ -690,6 +668,10 @@
 					"saved_color": {
 						"type": "Color",
 						"value": "255 255 224.574 0.83"
+					},
+					"Color": {
+						"type": "Color",
+						"value": "1 1 1 1"
 					}
 				},
 				"input_slots": [
@@ -709,7 +691,7 @@
 									"items": [
 										{
 											"var_type": "Color",
-											"var_value": "1 1 0.880682 0.83"
+											"var_value": "1 1 1 1"
 										}
 									]
 								}
@@ -739,7 +721,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "BasePlane",
-				"coordinates": "717 490",
+				"coordinates": "877 517",
 				"view_size": "138 148",
 				"metadata": null,
 				"input_slots": [
@@ -868,89 +850,6 @@
 				]
 			},
 			{
-				"ID": "CF235480",
-				"Name": "",
-				"type": "Maths_ConstructTransform",
-				"num_inputs": 3,
-				"num_outputs": 1,
-				"preview": true,
-				"enabled": true,
-				"unique_view_name": "BasePlane",
-				"coordinates": "457 374",
-				"view_size": "176 104",
-				"metadata": null,
-				"input_slots": [
-					{
-						"home_component": "CF235480",
-						"slot_index": 0,
-						"data_access": 0,
-						"slot_var_label": "P",
-						"slot_label": "Position",
-						"protected": true,
-						"linked_component": "",
-						"linked_slot_index": -1,
-						"input_tree": {
-							"branches": [
-								{
-									"path": "0_",
-									"items": [
-										{
-											"var_type": "Vector3",
-											"var_value": "0 0 0"
-										}
-									]
-								}
-							]
-						}
-					},
-					{
-						"home_component": "CF235480",
-						"slot_index": 1,
-						"data_access": 0,
-						"slot_var_label": "S",
-						"slot_label": "Scale",
-						"protected": true,
-						"linked_component": "68519640",
-						"linked_slot_index": 0
-					},
-					{
-						"home_component": "CF235480",
-						"slot_index": 2,
-						"data_access": 0,
-						"slot_var_label": "R",
-						"slot_label": "Rotation",
-						"protected": true,
-						"linked_component": "",
-						"linked_slot_index": -1,
-						"input_tree": {
-							"branches": [
-								{
-									"path": "0_",
-									"items": [
-										{
-											"var_type": "Quaternion",
-											"var_value": "1 0 0 0"
-										}
-									]
-								}
-							]
-						}
-					}
-				],
-				"output_slots": [
-					{
-						"home_component": "CF235480",
-						"slot_index": 0,
-						"linked_inputs": [
-							{
-								"linked_component": "56A56DF9",
-								"linked_slot_index": 1
-							}
-						]
-					}
-				]
-			},
-			{
 				"ID": "68519640",
 				"Name": "",
 				"type": "Input_Slider",
@@ -959,16 +858,20 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "BasePlane",
-				"coordinates": "240 370",
+				"coordinates": "393 188",
 				"view_size": "162 116",
 				"metadata": {
 					"max": {
 						"type": "Float",
-						"value": "100"
+						"value": "10"
 					},
 					"value": {
 						"type": "Float",
-						"value": "17.9104"
+						"value": "-4.47761"
+					},
+					"min": {
+						"type": "Float",
+						"value": "-10"
 					}
 				},
 				"input_slots": [
@@ -988,7 +891,7 @@
 									"items": [
 										{
 											"var_type": "Float",
-											"var_value": "17.9104"
+											"var_value": "-4.47761"
 										}
 									]
 								}
@@ -1002,8 +905,8 @@
 						"slot_index": 0,
 						"linked_inputs": [
 							{
-								"linked_component": "CF235480",
-								"linked_slot_index": 1
+								"linked_component": "56A56DF9",
+								"linked_slot_index": 0
 							}
 						]
 					}
@@ -1991,7 +1894,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "BasePlane",
-				"coordinates": "665 300",
+				"coordinates": "595 295",
 				"view_size": "206 156",
 				"metadata": null,
 				"input_slots": [

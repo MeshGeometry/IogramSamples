@@ -2,61 +2,11 @@
 	"graph": {
 		"components": [
 			{
-				"ID": "7297C37E",
-				"Name": "",
-				"type": "Mesh_Sphere",
-				"num_inputs": 1,
-				"num_outputs": 1,
-				"preview": true,
-				"enabled": true,
-				"unique_view_name": "MyGraphView",
-				"coordinates": "243 184",
-				"view_size": "186 80",
-				"metadata": null,
-				"input_slots": [
-					{
-						"home_component": "7297C37E",
-						"slot_index": 0,
-						"data_access": 0,
-						"slot_var_label": "T",
-						"slot_label": "Transformation",
-						"protected": true,
-						"linked_component": "",
-						"linked_slot_index": -1,
-						"input_tree": {
-							"branches": [
-								{
-									"path": "0_",
-									"items": [
-										{
-											"var_type": "Matrix3x4",
-											"var_value": "1 0 0 0 0 1 0 0 0 0 1 0"
-										}
-									]
-								}
-							]
-						}
-					}
-				],
-				"output_slots": [
-					{
-						"home_component": "7297C37E",
-						"slot_index": 0,
-						"linked_inputs": [
-							{
-								"linked_component": "778B2676",
-								"linked_slot_index": 0
-							}
-						]
-					}
-				]
-			},
-			{
 				"ID": "778B2676",
 				"Name": "",
 				"type": "Graphics_MeshRenderer",
 				"num_inputs": 4,
-				"num_outputs": 2,
+				"num_outputs": 3,
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
@@ -71,7 +21,7 @@
 						"slot_var_label": "M",
 						"slot_label": "Mesh",
 						"protected": true,
-						"linked_component": "7297C37E",
+						"linked_component": "AF2B8702",
 						"linked_slot_index": 0
 					},
 					{
@@ -128,6 +78,11 @@
 						"home_component": "778B2676",
 						"slot_index": 1,
 						"linked_inputs": []
+					},
+					{
+						"home_component": "778B2676",
+						"slot_index": 2,
+						"linked_inputs": []
 					}
 				]
 			},
@@ -182,86 +137,16 @@
 				]
 			},
 			{
-				"ID": "E73A01BF",
-				"Name": "",
-				"type": "Curve_Polygon",
-				"num_inputs": 2,
-				"num_outputs": 2,
-				"preview": true,
-				"enabled": true,
-				"unique_view_name": "MyGraphView",
-				"coordinates": "796 613",
-				"view_size": "190 82",
-				"metadata": null,
-				"input_slots": [
-					{
-						"home_component": "E73A01BF",
-						"slot_index": 0,
-						"data_access": 0,
-						"slot_var_label": "N",
-						"slot_label": "Number of sides",
-						"protected": true,
-						"linked_component": "",
-						"linked_slot_index": -1,
-						"input_tree": {
-							"branches": [
-								{
-									"path": "0_",
-									"items": [
-										{
-											"var_type": "Int",
-											"var_value": "5"
-										}
-									]
-								}
-							]
-						}
-					},
-					{
-						"home_component": "E73A01BF",
-						"slot_index": 1,
-						"data_access": 0,
-						"slot_var_label": "T",
-						"slot_label": "Transformation",
-						"protected": true,
-						"linked_component": "E0A758FF",
-						"linked_slot_index": 0
-					}
-				],
-				"output_slots": [
-					{
-						"home_component": "E73A01BF",
-						"slot_index": 0,
-						"linked_inputs": [
-							{
-								"linked_component": "730DF10C",
-								"linked_slot_index": 0
-							}
-						]
-					},
-					{
-						"home_component": "E73A01BF",
-						"slot_index": 1,
-						"linked_inputs": [
-							{
-								"linked_component": "1B3E9879",
-								"linked_slot_index": 0
-							}
-						]
-					}
-				]
-			},
-			{
 				"ID": "730DF10C",
 				"Name": "",
 				"type": "Graphics_CurveRenderer",
-				"num_inputs": 3,
+				"num_inputs": 4,
 				"num_outputs": 1,
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
-				"coordinates": "1300 586",
-				"view_size": "140 104",
+				"coordinates": "1111 688",
+				"view_size": "140 126",
 				"metadata": null,
 				"input_slots": [
 					{
@@ -271,7 +156,7 @@
 						"slot_var_label": "P",
 						"slot_label": "Curve",
 						"protected": true,
-						"linked_component": "E73A01BF",
+						"linked_component": "06D3FB35",
 						"linked_slot_index": 0
 					},
 					{
@@ -301,8 +186,31 @@
 						"home_component": "730DF10C",
 						"slot_index": 2,
 						"data_access": 0,
-						"slot_var_label": "C",
-						"slot_label": "Color",
+						"slot_var_label": "C_A",
+						"slot_label": "Color_A",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Color",
+											"var_value": "0.2 0.2 0.2 1"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"home_component": "730DF10C",
+						"slot_index": 3,
+						"data_access": 0,
+						"slot_var_label": "C_B",
+						"slot_label": "Color_B",
 						"protected": true,
 						"linked_component": "",
 						"linked_slot_index": -1,
@@ -338,7 +246,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
-				"coordinates": "580 606",
+				"coordinates": "470 718",
 				"view_size": "176 104",
 				"metadata": null,
 				"input_slots": [
@@ -405,7 +313,11 @@
 						"slot_index": 0,
 						"linked_inputs": [
 							{
-								"linked_component": "E73A01BF",
+								"linked_component": "06D3FB35",
+								"linked_slot_index": 1
+							},
+							{
+								"linked_component": "9CAEE87C",
 								"linked_slot_index": 1
 							}
 						]
@@ -421,7 +333,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
-				"coordinates": "358 609",
+				"coordinates": "309 727",
 				"view_size": "151 104",
 				"metadata": null,
 				"input_slots": [
@@ -478,7 +390,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
-				"coordinates": "144 602",
+				"coordinates": "87 729",
 				"view_size": "162 116",
 				"metadata": {
 					"min": {
@@ -549,7 +461,7 @@
 				"preview": true,
 				"enabled": true,
 				"unique_view_name": "MyGraphView",
-				"coordinates": "1293 771",
+				"coordinates": "1106 856",
 				"view_size": "150 148",
 				"metadata": null,
 				"input_slots": [
@@ -560,8 +472,8 @@
 						"slot_var_label": "P",
 						"slot_label": "Points",
 						"protected": true,
-						"linked_component": "E73A01BF",
-						"linked_slot_index": 1
+						"linked_component": "9CAEE87C",
+						"linked_slot_index": 0
 					},
 					{
 						"home_component": "1B3E9879",
@@ -684,6 +596,10 @@
 					"saved_color": {
 						"type": "Color",
 						"value": "221.676 128.949 1 1"
+					},
+					"Color": {
+						"type": "Color",
+						"value": "0.46875 0.398438 0.59375 1"
 					}
 				},
 				"input_slots": [
@@ -703,7 +619,7 @@
 									"items": [
 										{
 											"var_type": "Color",
-											"var_value": "0.869318 0.505682 0.00392157 1"
+											"var_value": "0.46875 0.398438 0.59375 1"
 										}
 									]
 								}
@@ -719,6 +635,210 @@
 							{
 								"linked_component": "778B2676",
 								"linked_slot_index": 3
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "AF2B8702",
+				"Name": "",
+				"type": "Mesh_Sphere",
+				"num_inputs": 1,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "MyGraphView",
+				"coordinates": "227 162",
+				"view_size": "92 80",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "AF2B8702",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "R",
+						"slot_label": "Radius",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Float",
+											"var_value": "1"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "AF2B8702",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "778B2676",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "529C7939",
+				"Name": "",
+				"type": "Curve_Polygon",
+				"num_inputs": 1,
+				"num_outputs": 2,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "MyGraphView",
+				"coordinates": "393 903",
+				"view_size": "190 82",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "529C7939",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "N",
+						"slot_label": "Number of sides",
+						"protected": true,
+						"linked_component": "",
+						"linked_slot_index": -1,
+						"input_tree": {
+							"branches": [
+								{
+									"path": "0_",
+									"items": [
+										{
+											"var_type": "Int",
+											"var_value": "5"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "529C7939",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "06D3FB35",
+								"linked_slot_index": 0
+							}
+						]
+					},
+					{
+						"home_component": "529C7939",
+						"slot_index": 1,
+						"linked_inputs": [
+							{
+								"linked_component": "9CAEE87C",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "06D3FB35",
+				"Name": "",
+				"type": "Geometry_AffineTransformation",
+				"num_inputs": 2,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "MyGraphView",
+				"coordinates": "805 745",
+				"view_size": "186 82",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "06D3FB35",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "G",
+						"slot_label": "Geometry",
+						"protected": true,
+						"linked_component": "529C7939",
+						"linked_slot_index": 0
+					},
+					{
+						"home_component": "06D3FB35",
+						"slot_index": 1,
+						"data_access": 0,
+						"slot_var_label": "T",
+						"slot_label": "Transformation",
+						"protected": true,
+						"linked_component": "E0A758FF",
+						"linked_slot_index": 0
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "06D3FB35",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "730DF10C",
+								"linked_slot_index": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "9CAEE87C",
+				"Name": "",
+				"type": "Geometry_AffineTransformation",
+				"num_inputs": 2,
+				"num_outputs": 1,
+				"preview": true,
+				"enabled": true,
+				"unique_view_name": "MyGraphView",
+				"coordinates": "807 865",
+				"view_size": "186 82",
+				"metadata": null,
+				"input_slots": [
+					{
+						"home_component": "9CAEE87C",
+						"slot_index": 0,
+						"data_access": 0,
+						"slot_var_label": "G",
+						"slot_label": "Geometry",
+						"protected": true,
+						"linked_component": "529C7939",
+						"linked_slot_index": 1
+					},
+					{
+						"home_component": "9CAEE87C",
+						"slot_index": 1,
+						"data_access": 0,
+						"slot_var_label": "T",
+						"slot_label": "Transformation",
+						"protected": true,
+						"linked_component": "E0A758FF",
+						"linked_slot_index": 0
+					}
+				],
+				"output_slots": [
+					{
+						"home_component": "9CAEE87C",
+						"slot_index": 0,
+						"linked_inputs": [
+							{
+								"linked_component": "1B3E9879",
+								"linked_slot_index": 0
 							}
 						]
 					}
