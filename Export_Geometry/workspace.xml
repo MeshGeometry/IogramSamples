@@ -38,6 +38,9 @@
 			<attribute name="Split Ratio" value="0.5" />
 			<attribute name="Split Type" value="MWL_HORIZONTAL" />
 			<attribute name="Content Type" value="-1623719521" />
+			<content>
+				<attribute name="Cam Local Pos" value="0 0 -4.41421" />
+			</content>
 		</element>
 		<element type="ModularWindow" style="ModularWindow">
 			<attribute name="Name" value="__SECOND_CHILD__" />
@@ -66,6 +69,9 @@
 				<attribute name="Split Ratio" value="0.5" />
 				<attribute name="Split Type" value="MWL_VERTICAL" />
 				<attribute name="Content Type" value="-917570003" />
+				<content>
+					<attribute name="Path" value="C:/Users/Cap/Documents/Projects_IogramEditor/IogramSamples/Export_Geometry/" />
+				</content>
 			</element>
 			<element type="ModularWindow" style="ModularWindow">
 				<attribute name="Name" value="__SECOND_CHILD__" />
@@ -81,6 +87,7 @@
 				<attribute name="Split Ratio" value="0.5" />
 				<attribute name="Split Type" value="MWL_VERTICAL" />
 				<attribute name="Content Type" value="-910589313" />
+				<content />
 			</element>
 			<element type="Button">
 				<attribute name="Name" value="__DIVIDER__" />
@@ -148,6 +155,9 @@
 				<attribute name="Split Ratio" value="0.5" />
 				<attribute name="Split Type" value="MWL_VERTICAL" />
 				<attribute name="Content Type" value="1514433550" />
+				<content>
+					<attribute name="Query" value="sphere" />
+				</content>
 			</element>
 			<element type="ModularWindow" style="ModularWindow">
 				<attribute name="Name" value="__SECOND_CHILD__" />
@@ -163,6 +173,7 @@
 				<attribute name="Split Ratio" value="0.5" />
 				<attribute name="Split Type" value="MWL_VERTICAL" />
 				<attribute name="Content Type" value="1514433550" />
+				<content />
 			</element>
 			<element type="Button">
 				<attribute name="Name" value="__DIVIDER__" />
@@ -191,6 +202,7 @@
 			<attribute name="Split Ratio" value="0.5" />
 			<attribute name="Split Type" value="MWL_HORIZONTAL" />
 			<attribute name="Content Type" value="-411129535" />
+			<content />
 		</element>
 		<element type="Button">
 			<attribute name="Name" value="__DIVIDER__" />
