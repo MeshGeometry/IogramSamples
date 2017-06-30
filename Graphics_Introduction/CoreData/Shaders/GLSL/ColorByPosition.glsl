@@ -29,8 +29,8 @@ void PS()
 {
     float fogFactor = GetFogFactor(vWorldPos.w);
     vec4 diffColor = cMatDiffColor;
-    float scale = 0.03;
-    float hFactor = pow(scale * vWorldPos.y,1.0);
+    float scale = 0.1;
+    float hFactor = pow(scale * vWorldPos.length(),1.0);
     vec3 posColor = vec3(hFactor, 0.1, 1.0 - hFactor);
     gl_FragColor = vec4(GetLitFog(posColor, fogFactor), diffColor.a);
 }

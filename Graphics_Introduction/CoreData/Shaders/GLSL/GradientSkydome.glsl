@@ -5,15 +5,13 @@
 
 varying vec2 vTexCoord;
 varying vec2 vScreenPos;
-uniform mat4 gl_ModelViewMatrix;
-uniform mat4 gl_ProjectionMatrix;
 
 #ifdef COMPILEPS
 
-uniform vec4 cGradColorA = vec4(60., 44., 30., 255.)/255.0; 
-uniform vec4 cGradColorB = vec4(18., 18., 44., 255.)/255.0;
-uniform float cBlurRadius = 0.001;
-uniform float cBlend = 0.3;
+uniform vec4 cGradColorA;
+uniform vec4 cGradColorB;
+uniform float cBlurRadius;
+uniform float cBlend;
 
 
 float normpdf(in float x, in float sigma)
